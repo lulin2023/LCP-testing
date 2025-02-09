@@ -1,5 +1,5 @@
 # LCP-testing
-This repository contains the code to reproduce the experiments results in "Conditional testing based on localized conformal p-values" published in ICLR 2025 by Xiaoyang Wu, Lin Lu, Zhaojun Wang and Changliang Zou.
+This repository contains the code to reproduce the experiments results in "Conditional testing based on localized conformal p-values" published at ICLR 2025 by Xiaoyang Wu, Lin Lu, Zhaojun Wang and Changliang Zou.
 
 ## Introduction 
 We address conditional testing problems through the conformal inference framework. We define the localized conformal $p$-values by inverting prediction intervals and prove their theoretical properties. These defined $p$-values are then applied to several conditional testing problems to illustrate their practicality. Firstly, we propose a conditional outlier detection procedure to test for outliers in the conditional distribution with FDR control. We also introduce a novel conditional label screening problem with the goal of screening multivariate response variables and propose a screening procedure to control the FWER. Finally, we consider the two-sample conditional distribution test and define a weighted U-statistic through the aggregation of localized $p$-values.
